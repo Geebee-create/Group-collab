@@ -3,14 +3,19 @@ body {
     text-align: center;
 }
 
-.container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #b227c2;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+h1 {
+    color: #333;
 }
 
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
 
 h1, h2 {
     color: #333;
@@ -24,14 +29,25 @@ button {
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.2s;
+}
+button:hover {
+    background-color: #ccc;
+    transition: background-color 0.2s;
+}
+    
+    
+
+.color-history ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-fa-check:hover{
-    color: red;
-}
-=======
+.color-history li {
+    cursor: pointer;
     transition: background-color 0.2s;
 }
 
-
-
+.color-history li:hover {
+    background-color: #f0f0f0;
+}
