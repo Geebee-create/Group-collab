@@ -3,16 +3,6 @@ body {
     text-align: center;
 }
 
-h1 {
-    color: #333;
-}
-
-button {
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
 .container {
     max-width: 800px;
     margin: 20px auto;
@@ -20,3 +10,38 @@ button {
     background-color: #b227c2;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+
+h1, h2 {
+    color: #333;
+}
+
+p, li {
+    color: #666;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #eee;
+}
+
+.color-history ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.color-history li {
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.color-history li:hover {
+    background-color: #f0f0f0;
+}
+
